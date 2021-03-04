@@ -1,10 +1,15 @@
 body{
-  width:98%
+  
+  margin: auto;
+  /* Mettre les largeurs en % 
+  les couleurs en hex
+  appliquer le principe DRY
+  */
 }
 footer, aside, .section-hebergements{
   background-color: #f2f2f2;
 }
-footer, header, .header-div1, .body-div1, .filtres{
+footer, header, .header-div1, .body-div1, .filtres, .activités-images{
   display: flex;
   flex-direction: row;
 }
@@ -47,22 +52,22 @@ nav ul, .filtres{
   margin-right: 2.8%;
 }
 .hebergement-image1{
-  background: url("auberge\ de\ la\ cannebière.jpg")  no-repeat;
+  background: url("auberge_de_la_cannebière.jpg")  no-repeat;
 }
 .hebergement-image2{
-  background: url("auberge\ de\ la\ cannebière.jpg")  no-repeat;
+  background: url("Hotel_du_port.jpg")  no-repeat;
 }
 .hebergement-image3{
-  background: url("auberge\ de\ la\ cannebière.jpg")  no-repeat;
+  background: url("Les_mouettes.jpg")  no-repeat;
 }
 .hebergement-image4{
-  background: url("auberge\ de\ la\ cannebière.jpg")  no-repeat;
+  background: url("Hôtel_de_la_mer.jpg")  no-repeat;
 }
 .hebergement-image5{
-  background: url("auberge\ de\ la\ cannebière.jpg")  no-repeat;
+  background: url("Le_panier.jpg")  no-repeat;
 }
 .hebergement-image6{
-  background: url("auberge\ de\ la\ cannebière.jpg")  no-repeat;
+  background: url("amina.jpg")  no-repeat;
 }
 .hebergement-image1, .hebergement-image2,.hebergement-image3,.hebergement-image4,.hebergement-image5,.hebergement-image6{
   width: 220px;
@@ -85,17 +90,17 @@ aside{
   width: 32.6%;
 }
 .populaires-image1{
-  background: url("auberge\ de\ la\ cannebière.jpg")  no-repeat;
+  background: url("Hôtel_Le_soleil_du_matin.jpg")  no-repeat;
 }
 .populaires-image2{
-  background: url("auberge\ de\ la\ cannebière.jpg")  no-repeat;
+  background: url("Au_coeur_de_l'eau.jpg")  no-repeat;
 }
 .populaires-image3{
-  background: url("auberge\ de\ la\ cannebière.jpg")  no-repeat;
+  background: url("Tout_bleu_et_blanc.jpg")  no-repeat;
 }
 .populaires-image1, .populaires-image2, .populaires-image3{
   width:334.34px;
-  height:120px;
+  height:130px;
   border: 3px solid white;
   border-radius: 20px;
   background-color: white;
@@ -110,8 +115,25 @@ aside{
   width:93.4%;
   height: 530px;
   border: black 1px solid;
+  display:flex;
+  flex-wrap:wrap;
 }
 
+.activités-image1, .activités-image4{
+  width: 305px;
+  height:445px;
+  border: black 3px solid;
+  border-radius: 20px;
+  margin: 10px;
+}
+.activités-image2, .activités-image3, .activités-image5, .activités-image6 {
+  width:200px;
+  height:135px;
+  border: 3px black solid;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 footer{
   justify-content: flex-start;
   max-width:105%
