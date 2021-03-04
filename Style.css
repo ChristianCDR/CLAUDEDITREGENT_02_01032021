@@ -47,21 +47,65 @@ nav ul, .filtres{
   margin-right: 2.8%;
 }
 .hebergement-image1{
-  width: 235px;
-  height: 175px;
-  border: 3px solid white;
-  border-radius: 20px;
   background: url("auberge\ de\ la\ cannebière.jpg")  no-repeat;
-  background-color: white;
 }
-.hebergement-image1 p{
+.hebergement-image2{
+  background: url("auberge\ de\ la\ cannebière.jpg")  no-repeat;
+}
+.hebergement-image3{
+  background: url("auberge\ de\ la\ cannebière.jpg")  no-repeat;
+}
+.hebergement-image4{
+  background: url("auberge\ de\ la\ cannebière.jpg")  no-repeat;
+}
+.hebergement-image5{
+  background: url("auberge\ de\ la\ cannebière.jpg")  no-repeat;
+}
+.hebergement-image6{
+  background: url("auberge\ de\ la\ cannebière.jpg")  no-repeat;
+}
+.hebergement-image1, .hebergement-image2,.hebergement-image3,.hebergement-image4,.hebergement-image5,.hebergement-image6{
+  width: 220px;
+  height: 175px;
+  border: 5px solid white;
+  border-radius: 20px;
+  background-color: white;
+  margin: 10px;
+}
+.hebergement-image1 p, .hebergement-image2 p,.hebergement-image3 p, .hebergement-image4 p,.hebergement-image5 p,.hebergement-image6 p{
   position: relative;
   top:110px;
 }
-
+.div-hebergements{
+  display:flex;
+  flex-wrap: wrap;
+  align-content: space-around ;
+}
 aside{
   width: 32.6%;
 }
+.populaires-image1{
+  background: url("auberge\ de\ la\ cannebière.jpg")  no-repeat;
+}
+.populaires-image2{
+  background: url("auberge\ de\ la\ cannebière.jpg")  no-repeat;
+}
+.populaires-image3{
+  background: url("auberge\ de\ la\ cannebière.jpg")  no-repeat;
+}
+.populaires-image1, .populaires-image2, .populaires-image3{
+  width:334.34px;
+  height:120px;
+  border: 3px solid white;
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+}
+.populaires-image1 p, .populaires-image2 p, .populaires-image3 p{
+  position: relative;
+  left:130px;
+}
+
 .section-activites{
   width:93.4%;
   height: 530px;
