@@ -26,7 +26,7 @@ footer, aside, .section-hebergements{
 .footer-child2, .footer-child3{
   margin-left: 200px;
 }
-footer, header, .header-ul, .body-div1, .filtres, .activités-images, .section-activites, .div-hebergements{
+footer, header, .header-ul, .body-div1, .filtres, .activités-images, .section-activites, .div-hebergements, .div-filtres{
   display: flex;
   flex-direction: row;
 }
@@ -72,14 +72,41 @@ label{
   padding:10px;
   font-family: "ralewaythin" ;
   padding-bottom: 8.6px;
-  
+  border: 2px solid #f2f2f2;  
+}
+.div-filtres p{
+  margin-top: 30px;
+  font-weight: bold;
 }
 .filtres li {
-  border: 1px solid black;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 30px;
+  border: 1px solid #f2f2f2;
+  border-radius: 50px;
   margin-right: 50px;
+  margin-top:10px;
+  padding: 8px;
+  padding-left:45px;
+  font-family: "ralewaythin", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.filtres i{
+  border: 3px solid#deebff;
+  border-radius: 50px;
+  margin-top:10px;
+  padding:7px;
+  margin-right:-40px;
+  color:#0065fc;
+  background-color:#deebff;
+}
+.fas.fa-child{
+  padding-right:10px;
+  padding-left:10px;
+  margin-right:-38px;
+}
+.fas.fa-heart{
+  margin-right:-36px;
+}
+.fas.fa-dog{
+  margin-right:-37px;
 }
 .body-div1{
   width: 100%; 
