@@ -48,9 +48,9 @@ nav ul, .filtres{
   margin-right: 1.5%;
 }
 .header-ul :nth-child(2){
- margin-left: 60px ;
- margin-right: 60px ;
-}
+  margin-left: 60px ;
+  margin-right: 60px ;
+ }
 .fas.fa-map-marker-alt{
   border: 0.3px solid #f2f2f2;
   border-radius:10px 0 0 10px; 
@@ -216,9 +216,23 @@ aside{
   margin: 20px;
   margin-top: 25px;
 }
-.populaires-image1 p, .populaires-image2 p, .populaires-image3 p{
-  position: relative;
-  left:130px;
+.populaires-image1 p, .populaires-image2 p, .populaires-image3 p, .populaires-rating{
+ 
+ position: relative;
+ left:150px;
+}
+div span{
+  font-size: 10px;
+  color:#0065fc;
+}
+.div-hebergements i, .populaires-image2 i, .populaires-image3 i{
+  font-size: 10px;
+  color: #d9d9d9;
+}
+.hebergement-rating{
+  position:relative;
+  top: 65px;
+  left:10px;
 }
 
 .section-activites{
