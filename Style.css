@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: 'ralewaythin';
   src: url('raleway-variablefont_wght-webfont.woff2') format('woff2'),
@@ -12,7 +11,6 @@ body{
   margin: 2.8%;
   margin-left:5%;
   margin-bottom: 0;
-  
   color: black;
   font-family: "ralewaythin",Arial, Helvetica, sans-serif ;
   
@@ -166,7 +164,7 @@ aside h3{
   height: 555px ;
 
 }
-.div-hebergements div{
+.div-hebergements a{
   margin-top: auto;
   margin-right: auto;
   margin-left: auto;
@@ -268,6 +266,7 @@ div span{
   box-shadow: 0px 3px 0.3px #f3f3f3;
   border-radius: 20px;
   margin: 5px;
+  margin-top: -10px;
 }
 .activités-image2, .activités-image6 {
   width: 270px;
@@ -284,7 +283,7 @@ div span{
 }
 .activités-image1 p, .activités-image4 p{
 position:relative;
-top:400px;
+top:415px;
 left: 15px;
 }
 .activités-image2 p, .activités-image6 p{
@@ -317,6 +316,10 @@ background: url("images_activités/vieux_port.jpg") no-repeat;
 .activités-image6{
   background: url("images_activités/longchamp.jpg") no-repeat;
   margin-top: 22px;
+}
+.section-hebergements a, .section-activites a, aside a{
+  color:black;
+  text-decoration: none;
 }
 footer{
   justify-content: flex-start;
