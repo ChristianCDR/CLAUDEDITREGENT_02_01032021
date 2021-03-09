@@ -6,27 +6,23 @@
   font-style: normal;
 
 }
-body{
+main{
   max-width: 90%;
-  margin: 2.8%;
+  margin: 2%;
   margin-left:5%;
   margin-bottom: 0;
   color: black;
   font-family: "ralewayregular",Arial, Helvetica, sans-serif ;
   
-  /* Mettre les largeurs en % 
-  les couleurs en hex
-  appliquer le principe DRY
-  */
 }
 
 footer, aside, .section-hebergements{
   background-color: #f2f2f2;
 }
 .footer-child2, .footer-child3{
-  margin-left: 200px;
+  margin-left: 210px;
 }
-footer, header, .header-ul, .body-div1, .filtres, .activités-images, .section-activites, .div-hebergements, .div-filtres{
+footer, header, .header-ul, .body-div1, .filtres, .activites-images, .section-activites, .div-hebergements, .div-filtres{
   display: flex;
   flex-direction: row;
 }
@@ -96,9 +92,8 @@ label{
   border: 2px solid #f2f2f2;
   border-radius: 50px;
   margin-right: 50px;
-  margin-top:10px;
-  padding: 8px;
-  padding-left:45px;
+  margin-top:6px;
+  padding-right: 20px;
   font-family: "ralewayregular", Arial, Helvetica, sans-serif;
   font-weight: bold;
   border-left: 1px solid #deebff ;
@@ -106,33 +101,28 @@ label{
 .filtres i{
   border: 2px solid#deebff;
   border-radius: 50px;
-  margin-top:10px;
-  padding:7px;
-  margin-right:-40px;
   color:#0065fc;
   background-color:#deebff;
+  position:relative;
+  left: -2px;
 }
 .filtres li:hover{
   color: #0065fc;
 }
 .fas.fa-money-bill-wave{
-  margin-right:-38px;
+  padding: 10px;
 }
 .fas.fa-child{
   padding-right:12px;
-  padding-left:10px;
-  padding-bottom: 0px;
-  margin-right:-39px;
+  padding:10px;
+  padding-left: 12px;
+  padding-right:12px;
 }
 .fas.fa-heart{
-  margin-right:-40px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding: 10px;
 }
 .fas.fa-dog{
-  margin-right:-40px;
-  padding-right: 9px;
-  padding-left: 9px;
+  padding: 10px;
 }
 .fas.fa-info{
   border: 2px solid #f2f2f2;
@@ -151,14 +141,15 @@ label{
   width: 100%; 
 }
 .section-hebergements h3, .section-hebergements p{
- padding-left: 5%;
+ padding-left: 2.8%;
  margin-bottom: 28px;
 }
 aside h3{
   padding-left: 6%;
 }
 .section-activites h3{
-  padding-right: 5%;
+  position:relative;
+  left:-25px;
 }
 h3, header+p, a p, .section-hebergements :last-child, footer div :first-child{
   font-weight:bold;
@@ -237,7 +228,7 @@ aside{
   border-radius: 20px;
   background-color: white;
   margin: 20px;
-  margin-top: 25px;
+  margin-top: 27px;
 }
 .populaires-image1 p, .populaires-image2 p, .populaires-image3 p, .populaires-rating{
  
@@ -265,11 +256,11 @@ div span{
   flex-wrap:wrap;
   margin-left: 2%;
 }
-.activités-images{
+.activites-images{
   justify-content:space-around;
   margin-left: -3.8%;
 }
-.activités-image1, .activités-image4{
+.activites-image1, .activites-image4{
   width: 270px;
   height:445px;
   box-shadow: 0px 3px 0.3px #f3f3f3;
@@ -277,52 +268,52 @@ div span{
   margin: 5px;
   margin-top: -10px;
 }
-.activités-image2, .activités-image6 {
+.activites-image2, .activites-image6 {
   width: 270px;
   height:250px;
   box-shadow: 0px 3px 0.3px #f3f3f3;
   border-radius: 20px;
   margin-top: -10px;
 }
-.activités-image3, .activités-image5{
+.activites-image3, .activites-image5{
   width: 270px;
   height:170px;
   border-radius: 20px;
   box-shadow: 0px 3px 0.3px #f3f3f3;
 }
-.activités-image1 p, .activités-image4 p{
+.activites-image1 p, .activites-image4 p{
 position:relative;
 top:415px;
 left: 15px;
 }
-.activités-image2 p, .activités-image6 p{
+.activites-image2 p, .activites-image6 p{
 position:relative;
 top:220px;
 left: 15px;
 }
-.activités-image3 p, .activités-image5 p{
+.activites-image3 p, .activites-image5 p{
   position:relative;
   top:140px;
   left: 15px;
 }
-.activités-image1{
+.activites-image1{
 background: url("images_activités/vieux_port.jpg") no-repeat;
 }
-.activités-image2{
+.activites-image2{
   background: url("images_activités/pomègues.jpg") no-repeat;
   margin-bottom: 25px;
 }
-.activités-image3{
+.activites-image3{
   background: url("images_activités/iles_du_frioul.jpg") no-repeat;
 }
-.activités-image4{
+.activites-image4{
   background: url("images_activités/calanques.jpg") no-repeat;
 }
-.activités-image5{
+.activites-image5{
   background: url("images_activités/notre_dame_de_la_garde.jpg") no-repeat;
   margin-top: -10px;
 }
-.activités-image6{
+.activites-image6{
   background: url("images_activités/longchamp.jpg") no-repeat;
   margin-top: 22px;
 }
@@ -331,14 +322,11 @@ background: url("images_activités/vieux_port.jpg") no-repeat;
   text-decoration: none;
 }
 footer{
-  justify-content: flex-start;
-  
+  justify-content: flex-start;  
+  margin:auto;
 }
 footer div{
-  margin-left:100px;
-}
-.footer-background{
-  margin: auto;
+  margin-left:60px;
 }
 .tarif{
   font-size: 14px;
