@@ -4,18 +4,18 @@
        url('raleway-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
+}
+body{
+  overflow-x: hidden;
 }
 main{
   max-width: 100%;
-  margin: 2%;
-  margin-left:5%;
-  margin-bottom: 0;
+  margin:1%;
+  margin-top: 2%;
+  margin-left:3%;
   color: black;
-  font-family: "ralewayregular",Arial, Helvetica, sans-serif ;
-  
+  font-family: "ralewayregular",Arial, Helvetica, sans-serif ; 
 }
-
 footer, aside, .section-hebergements{
   background-color: #f2f2f2;
 }
@@ -39,7 +39,7 @@ nav ul, .filtres{
     margin-bottom: 50px;
 }
 .header-nav{
-  margin-right: 1.5%;
+  margin-right: 0%;
 }
 .header-ul a{
   color: black;
@@ -138,7 +138,7 @@ label{
   margin-left:145px;
 }
 .body-div1{
-  width: 100%; 
+  width:100%; 
 }
 .section-hebergements h3, .section-hebergements p{
  padding-left: 5%;
@@ -211,8 +211,10 @@ h3, header+p, a p, .section-hebergements :last-child, footer div :first-child{
 aside{
   max-width: 33%;
   border-radius: 20px;
+  padding: 12px;
   padding-top: 20px;
-  height: 580px ;
+  height: 568px ;
+
 }
 .populaires-image1{
   background: url("images_hebergement/Hôtel_Le_soleil_du_matin.jpg")  no-repeat;
@@ -325,10 +327,10 @@ background: url("images_activités/vieux_port.jpg") no-repeat;
 }
 footer{
   justify-content: flex-start;  
-  margin:auto;
+  width:103%;
 }
 footer div{
-  margin-left:60px;
+  margin-left:45px; /*1er element du footer*/
 }
 .tarif{
   font-size: 14px;
