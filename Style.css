@@ -10,9 +10,7 @@ body{
 }
 main{
   max-width: 100%;
-  margin:1%;
-  margin-top: 2%;
-  margin-left:3%;
+  margin:20px;
   color: black;
   font-family: "ralewayregular",Arial, Helvetica, sans-serif ; 
 }
@@ -20,7 +18,7 @@ footer, aside, .section-hebergements{
   background-color: #f2f2f2;
 }
 .footer-child2, .footer-child3{
-  margin-left: 210px;
+  margin-left: 230px;
 }
 footer, header, .header-ul, .body-div1, .filtres, .activites-images, .section-activites, .div-hebergements, .div-filtres{
   display: flex;
@@ -38,9 +36,6 @@ nav ul, .filtres{
 .body-div1, .section-activites{
     margin-bottom: 50px;
 }
-.header-nav{
-  margin-right: 0%;
-}
 .header-ul a{
   color: black;
   text-decoration: none;
@@ -49,7 +44,6 @@ nav ul, .filtres{
   color:#0065fc;
   border-top: 2px solid #0065fc;
   padding-top: 30px;
-
  }
  .header-ul :nth-child(2){
   margin-left: 60px ;
@@ -327,7 +321,8 @@ background: url("images_activités/vieux_port.jpg") no-repeat;
 }
 footer{
   justify-content: flex-start;  
-  width:103%;
+  width:102%;
+  margin-left:-1%;
 }
 footer div{
   margin-left:45px; /*1er element du footer*/
