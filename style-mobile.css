@@ -1,41 +1,90 @@
+
 main{
   width:auto;
 }
 header{
   width:auto;
   height: 90px;
-  border-bottom: 2px solid #f2f2f2;
+  border-bottom: 5px solid #f2f2f2;
 }
 .header-ul :first-child, .header-ul :nth-child(2){
   position: relative;
   top: 20px;
 }
 .header-ul li :hover{
-  border-bottom: 2px solid #0065fc;
+  border-bottom: 5px solid #0065fc;
   padding-bottom: 15px;
   border-top: hidden;
 }
 .header-ul :nth-child(3){
   position: relative;
-  right:30px;
-  font-size: 20px;
+  right:20px;
+  font-size: 1.2em;
   font-weight: bold;
 }
 .header-ul :first-child{
   position: relative;
-  left: 5px;
+  left: -10px;
 }
 .header-ul :nth-child(2){
   position: relative;
-  right: -50px;
+  top: 20px;
+  left:78px;
 }
 .bloc-svg{
   width:150px;
   height: 50px;
-  margin-right: -90px;
+  margin-right: -70px;
   position: relative;
-  left:40px;
+  left:20px;
 }
 svg{
   width:100%;
 }
+header+p{
+  font-size: 1.65em;
+  margin-left: 22px;
+}
+header+p+p{
+  margin-top: -12px;
+  font-size: 1.2em;
+  margin-left: 22px;
+}
+.body-div, footer, .activites-images, .div-filtres{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.section-hebergements, .activites-images{
+  margin-top: 50px; 
+  margin-bottom: 750px;
+}
+footer, .activites-images, .div-filtres{
+  flex-direction: column;
+}
+.section-activites{
+  margin-bottom: 87em;
+}
+
+.filtres li{
+  border:none;
+  margin-right: 30px;
+}
+.filtres span{
+  border: 2px solid #f2f2f2;
+  border-left: 2px solid transparent;
+  border-radius: 40px;
+  position: relative;
+  top: -30px;
+  left:-40px;
+  padding: 12px;
+  padding-top: 8px;
+  padding-left: 55px;
+}
+.filtres i{
+  position: relative;
+  top: 1.5px;
+  left:-39px;
+}
+
+
+
