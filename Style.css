@@ -92,7 +92,10 @@ form span{
   margin-top: 35px;
   font-family: "ralewaybold", Arial, sans-serif;
 }
-.filtres span{
+.div-filtres + p{
+  margin-top: -40px;
+}
+.filtres pre{
   border: 2px solid #f2f2f2;
   border-radius: 40px;
   padding: 10px;
@@ -103,6 +106,10 @@ form span{
   font-size: 1em;
   color:black;
   border-left: 1px solid transparent;
+  margin-right: 50px;
+  position:relative;
+  top:-55px;
+  left:45px;
 }
 .filtres i{
   border: 2px solid#deebff;
@@ -113,7 +120,7 @@ form span{
   top: 1px;
   left: 45px;
 }
-.filtres span:hover{
+.filtres pre:hover{
   color: #0065fc;
 }
 .fas.fa-money-bill-wave{
@@ -147,7 +154,8 @@ form span{
   margin-left:145px;
 }
 .body-div{
-  width:100%; 
+  width:100%;
+
 }
 .section-hebergements h3, .section-hebergements p{
  padding-left: 5%;
