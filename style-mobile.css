@@ -122,6 +122,9 @@ footer, .activites-images, .div-filtres{
   top: 7.1em;
   left: -43em;
 }
+.div-filtres + p{
+  margin-top: 0px;
+}
 aside{
  min-width:90%;
  border-radius: 0;
