@@ -132,6 +132,7 @@ aside{
   min-width:105%;
   margin-left:-6%;
   border-radius: 0;
+  height:520px;
 }
 aside a, aside h3{
   position:relative;
@@ -145,8 +146,7 @@ h3{
 }
 .section-hebergements{
   background-color: transparent;
-  border: 1px solid teal;
-  height: 88em;
+  height: 80em;
   margin-top: 0px;
   min-width:110%;
   margin-left:-5.5%;
@@ -156,12 +156,13 @@ h3{
   height:180px;
   border:3px solid teal;
   margin-left:0;
+  margin-bottom: 10px;
 }
 .hebergement-image3,.hebergement-image6{
   margin-left: 20px;
 }
-.hebergement-image4,.hebergement-image5,.hebergement-image6{
-  margin-bottom: 40px;
+.populaires-image2,.populaires-image3{
+  margin-top: -10px;
 }
 .hebergement-image1{
   background: url("images_hebergement/marcus-loke-WQJvWU_HZFo-unsplash.jpg")  no-repeat;
@@ -180,17 +181,47 @@ h3{
 }
 .hebergement-image6{
   background: url("images_hebergement/febrian-zakaria-M6S1WvfW68A-unsplash.jpg")  no-repeat;
-}
-
-.section-activites a{
-  margin-bottom: 25em;
+  margin-bottom: -15px;
 }
 .activites-images{
   margin-left: -170px;
 }
 .section-activites{
+  margin-top: -55em;
   margin-bottom: 87em;
 }
+.section-activites h3{
+  margin-left: 20px;
+}
+.activites-image1,.activites-image2,.activites-image3,.activites-image4,.activites-image5,.activites-image6{
+  width: 334px;
+  height: 191px;
+  margin-bottom:15px;
+  margin-left:-20px;
+  border:1px solid teal;
+}
+.activites-image1{
+  background: url("images_activités/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg") no-repeat;
+  }
+  .activites-image2{
+    background: url("images_activités/paul-hermann-QFTrLdQIRhI-unsplash.jpg") no-repeat;
+    margin-bottom: 42px;
+  }
+  .activites-image3{
+    background: url("images_activités/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg") no-repeat;
+  }
+  .activites-image4{
+    background: url("images_activités/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg") no-repeat;
+  }
+  .activites-image5{
+    background: url("images_activités/florian-wehde-xW9e8gdotxI-unsplash.jpg") no-repeat;
+    margin-top: -10px;
+  }
+  .activites-image6{
+    background: url("images_activités/lena-paulin-wH2-EJoDcV0-unsplash.jpg") no-repeat;
+    margin-top: 40px;
+  }
+
 
 
 
