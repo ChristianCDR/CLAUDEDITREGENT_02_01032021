@@ -157,7 +157,6 @@ form span{
 }
 .body-div{
   width:100%;
-
 }
 .section-hebergements h3, .section-hebergements p{
  padding-left: 5%;
@@ -173,7 +172,6 @@ aside h3{
 h3, header+p, a p, .section-hebergements :last-child, footer div :first-child{
   font-family: "ralewaybold", Arial, Helvetica, sans-serif;
 }
-
 .section-hebergements{
   width: 72%;
   padding-top: 20px;
