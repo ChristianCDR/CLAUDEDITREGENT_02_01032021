@@ -90,39 +90,48 @@ footer, .activites-images, .div-filtres{
   position: relative;
   top: -57px;
   left:-40px;
-  padding: 14px;
-  padding-top: 7px;
+  padding: 8px;
   padding-left: 55px; 
   margin-right: -20px;
 }
 .filtres i{
   position: relative;
-  top: 1.5px;
-  left:-39px;
+  top: -1.5px;
+  left:-40px;
+  z-index: 1;
 }
 .filtres .filtre-romantique{
   position: relative;
   top: -1.5px;
-  left:-23em;
+  left:-22.3em;
+  padding-top: 10px;
+  padding-bottom: 8px;
 }
 .fas.fa-heart{
   position: relative;
   top: 56px;
-  left: -23em;
+  left: -22.4em;
+  padding: 11px;
 }
 .filtres .filtre-animaux{
   position: relative;
   top: 56px;
-  left:-34em;
+  left:-32.9em;
+  padding-top: 11px;
+  padding-bottom: 7px;
   padding-left:55px;
 }
 .fas.fa-dog{
   top: 7.1em;
-  left: -34em;
+  left: -33em;
+  padding: 11px;
 }
 .div-filtres{
   margin-top: -10px;
   margin-bottom: 50px;
+}
+.div-filtres + p{
+  font-size: 15px;
 }
 .fas.fa-info + span{
   position:relative;
