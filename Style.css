@@ -169,7 +169,7 @@ aside h3{
   position:relative;
   left:-25px;
 }
-h3, header+p, a p, .section-hebergements :last-child, footer div :first-child{
+h3, header+p, a p, .div-hebergements + p, footer div :first-child{
   font-family: "ralewaybold", Arial, Helvetica, sans-serif;
 }
 .section-hebergements{

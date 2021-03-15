@@ -141,6 +141,9 @@ aside a, aside h3{
 .fas.fa-chart-line{
   margin-left: 163px;
 }
+.populaires-image2,.populaires-image3{
+  margin-top: -10px;
+}
 h3{
   font-size: 1em;
 }
@@ -151,6 +154,11 @@ h3{
   min-width:110%;
   margin-left:-5.5%;
 }
+.hebergement-rating{
+  position:relative;
+  top: 60px;
+  left:16px;
+}
 .hebergement-image1,.hebergement-image2,.hebergement-image3,.hebergement-image4,.hebergement-image5,.hebergement-image6{
   width:325.30px;
   height:180px;
@@ -160,9 +168,6 @@ h3{
 }
 .hebergement-image3,.hebergement-image6{
   margin-left: 20px;
-}
-.populaires-image2,.populaires-image3{
-  margin-top: -10px;
 }
 .hebergement-image1{
   background: url("images_hebergement/marcus-loke-WQJvWU_HZFo-unsplash.jpg")  no-repeat;
@@ -183,12 +188,12 @@ h3{
   background: url("images_hebergement/febrian-zakaria-M6S1WvfW68A-unsplash.jpg")  no-repeat;
   margin-bottom: -15px;
 }
-.activites-images{
-  margin-left: -170px;
-}
 .section-activites{
   margin-top: -55em;
-  margin-bottom: 87em;
+  margin-bottom: 54em;
+}
+.activites-images{
+  margin-left: -170px;
 }
 .section-activites h3{
   margin-left: 20px;
@@ -196,31 +201,46 @@ h3{
 .activites-image1,.activites-image2,.activites-image3,.activites-image4,.activites-image5,.activites-image6{
   width: 334px;
   height: 191px;
-  margin-bottom:15px;
+  margin-bottom:35px;
   margin-left:-20px;
   border:1px solid teal;
 }
+.activites-image1 p,.activites-image2 p,.activites-image3 p,.activites-image4 p,.activites-image5 p,.activites-image6 p{
+  position:relative;
+  top:145px;
+  left: 15px;
+  }
 .activites-image1{
   background: url("images_activités/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg") no-repeat;
+  margin-top: 20px;
   }
   .activites-image2{
     background: url("images_activités/paul-hermann-QFTrLdQIRhI-unsplash.jpg") no-repeat;
-    margin-bottom: 42px;
   }
   .activites-image3{
     background: url("images_activités/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg") no-repeat;
+    margin-top:-10px;
   }
   .activites-image4{
     background: url("images_activités/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg") no-repeat;
   }
   .activites-image5{
     background: url("images_activités/florian-wehde-xW9e8gdotxI-unsplash.jpg") no-repeat;
-    margin-top: -10px;
   }
   .activites-image6{
     background: url("images_activités/lena-paulin-wH2-EJoDcV0-unsplash.jpg") no-repeat;
-    margin-top: 40px;
+    margin-top:-10px;
   }
+  footer{
+    width:106%;
+    margin-left:-3%;
+  }
+  footer div,.footer-child2, .footer-child3{
+    margin-left: 22px;
+    margin-bottom:15px;
+  }
+  
+    
 
 
 
