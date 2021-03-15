@@ -69,7 +69,7 @@ nav ul, .filtres{
   background-color:#f2f2f2;
 
 }
-label input{
+form button{
   border: 1px #0065fc solid;
   padding: 10px;
   padding-bottom: 9px;
@@ -79,7 +79,7 @@ label input{
   font-weight: bold;
   color: white;
 }
-form span{
+form p :nth-child(4){
   display: none;
 }
 #rechercher{
@@ -220,6 +220,9 @@ h3, header+p, a p, .div-hebergements + p, footer div :first-child{
   top:105px;
   font-size: 14px;
 }
+.populaires-image1, .populaires-image2, .populaires-image3,.hebergement-image1,.hebergement-image2,.hebergement-image3,.hebergement-image4,.hebergement-image5,.hebergement-image6,.activites-image1,.activites-image2,.activites-image3,.activites-image4,.activites-image5,.activites-image6{
+  box-shadow: 0px 0px 20px #d3d1d1;
+}
 .div-hebergements{
   align-content: space-around ;
   flex-wrap: wrap;
@@ -282,7 +285,6 @@ div span{
 .activites-image1, .activites-image4{
   width: 270px;
   height:445px;
-  box-shadow: 0px 3px 0.3px #f3f3f3;
   border-radius: 20px;
   margin: 5px;
   margin-top: -10px;
@@ -290,7 +292,6 @@ div span{
 .activites-image2, .activites-image6 {
   width: 270px;
   height:230px;
-  box-shadow: 0px 3px 0.3px #f3f3f3;
   border-radius: 20px;
   margin-top: -10px;
 }
@@ -298,7 +299,6 @@ div span{
   width: 270px;
   height:170px;
   border-radius: 20px;
-  box-shadow: 0px 3px 0.3px #f3f3f3;
 }
 .activites-image1 p, .activites-image4 p{
 position:relative;

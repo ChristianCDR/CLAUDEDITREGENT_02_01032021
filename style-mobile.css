@@ -53,10 +53,7 @@ header+p+p{
   margin-top: -12px;
   font-size: 1em;
 }
-label{
-  display:none;
-}
-form span{
+form p :nth-child(4){
   display: inline;
   color:white;
   border: 1px solid #0065fc;
@@ -66,6 +63,9 @@ form span{
   padding-left: 10px;
   background-color: #0065fc;
   margin-left: -10px;
+}
+form p :nth-child(3){
+  display:none;
 }
 .body-div, footer, .activites-images, .div-filtres{
   display: flex;
