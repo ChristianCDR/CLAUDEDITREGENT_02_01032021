@@ -55,8 +55,8 @@ header+p+p{
 }
 .fas.fa-map-marker-alt{
   padding: 20px;
-  padding-top: 15px;
-  padding-bottom:16.5px ;
+  padding-top: 17.5px;
+  padding-bottom:17px ;
   border-radius:15px 0 0 15px; 
 }
 #rechercher{
@@ -227,7 +227,7 @@ h3{
 }
 .activites-image1 p,.activites-image2 p,.activites-image3 p,.activites-image4 p,.activites-image5 p,.activites-image6 p{
   position:relative;
-  top:145px;
+  top:157px;
   left: 15px;
   }
 .activites-image1{
