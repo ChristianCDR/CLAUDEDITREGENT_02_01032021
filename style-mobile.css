@@ -53,16 +53,29 @@ header+p+p{
   margin-top: -12px;
   font-size: 1em;
 }
+.fas.fa-map-marker-alt{
+  padding: 20px;
+  padding-top: 15px;
+  padding-bottom:16.5px ;
+  border-radius:15px 0 0 15px; 
+}
+#rechercher{
+  border:1px solid #f2f2f2;
+  width: 243px;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  font-size: 1em;
+}
 form p :nth-child(4){
   display: inline;
   color:white;
-  border: 1px solid #0065fc;
   border-radius: 10px;
-  padding: 8px;
-  padding-right: 10px;
-  padding-left: 10px;
-  background-color: #0065fc;
-  margin-left: -10px;
+  background-color: #0065fc;  
+  margin-left: -15px;
+  padding: 19px;
+  padding-top: 18px;
+  padding-bottom:15.5px ;
+  border-radius:15px; 
 }
 form p :nth-child(3){
   display:none;
@@ -171,7 +184,6 @@ h3{
 .hebergement-image1,.hebergement-image2,.hebergement-image3,.hebergement-image4,.hebergement-image5,.hebergement-image6{
   width:325.30px;
   height:180px;
-  border:3px solid teal;
   margin-left:0;
   margin-bottom: 10px;
 }
@@ -199,7 +211,7 @@ h3{
 }
 .section-activites{
   margin-top: -55em;
-  margin-bottom: 54em;
+  margin-bottom: 57em;
 }
 .activites-images{
   margin-left: -170px;
@@ -212,7 +224,6 @@ h3{
   height: 191px;
   margin-bottom:35px;
   margin-left:-20px;
-  border:1px solid teal;
 }
 .activites-image1 p,.activites-image2 p,.activites-image3 p,.activites-image4 p,.activites-image5 p,.activites-image6 p{
   position:relative;
