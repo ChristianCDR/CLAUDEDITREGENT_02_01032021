@@ -39,20 +39,23 @@ aside div{
   left: 150px;
 }
 .section-activites{
+  width:auto;
   height: 65em;
-  border: 2px solid teal;
+  margin-left: 0%;
+  padding-left: 70px;
 }
-.activites-images div{
-  margin-left: 30px;
-}
-.activites-images :nth-child(3), .activites-images :nth-child(4){
+.activites-image4, .activites-image5, .activites-image6{
   position:relative;
   top: 500px;
   right:550px;
 }
+.activites-image2, .activites-image3, .activites-image5, .activites-image6{
+  margin-left: 23%;
+}
 footer{
+  width: 103%;
+  margin-left: -2%;
   height: 330px;
-  margin-bottom: 0px;
 }
 .footer-child2, .footer-child3{
   margin-left: 100px;
@@ -61,4 +64,5 @@ footer{
   position: relative;
   top:200px;
   left: -33.5em;
+  margin-bottom: 200px;
 }
