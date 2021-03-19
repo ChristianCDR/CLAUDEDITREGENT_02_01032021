@@ -184,7 +184,7 @@ h3, header+p, a p, .div-hebergements + p, footer div :first-child{
   margin: auto;
 }
 .hebergement-image1{
-  background: url("images_hebergement/auberge_de_la_cannebière.jpg")  no-repeat;
+  background: url("images_hebergement/Auberge_de_la_cannebière.jpg")  no-repeat;
   margin-left: 20px;
 }
 .hebergement-image2{
@@ -202,7 +202,7 @@ h3, header+p, a p, .div-hebergements + p, footer div :first-child{
   background: url("images_hebergement/Le_panier.jpg")  no-repeat;
 }
 .hebergement-image6{
-  background: url("images_hebergement/amina.jpg")  no-repeat;
+  background: url("images_hebergement/Amina.jpg")  no-repeat;
   margin-right: 20px;
 }
 .hebergement-image1, .hebergement-image2,.hebergement-image3,.hebergement-image4,.hebergement-image5,.hebergement-image6{
