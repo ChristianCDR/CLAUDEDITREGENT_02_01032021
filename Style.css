@@ -60,19 +60,17 @@ nav ul, .filtres{
    color:#0065fc
  }
 .fas.fa-map-marker-alt{
-  border: 0.3px solid #f2f2f2;
   border-radius:10px 0 0 10px; 
   margin-right: -4.5px;
   padding: 13px;
-  padding-top: 9px;
-  padding-bottom:10.5px ;
+  padding-top: 12px;
+  padding-bottom:12px ;
   background-color:#f2f2f2;
-
 }
 form button{
-  border: 1px #0065fc solid;
-  padding: 9px;
-  padding-bottom: 9px;
+  padding: 10px;
+  padding-top: 12px;
+  padding-bottom: 9.5px;
   margin-left: -5px;
   border-radius: 0 10px 10px 0;
   background-color: #0065fc;
@@ -83,10 +81,10 @@ form p :nth-child(4){
   display: none;
 }
 #rechercher{
-  padding:10px;
+  padding:13px;
   font-family: "ralewaybold" ;
   font-weight: bold;
-  padding-bottom: 8.6px;
+  padding-bottom: 9.5px;
   border: 1px solid #f2f2f2;  
 }
 .div-filtres p{
@@ -114,7 +112,6 @@ form p :nth-child(4){
   left:45px;
 }
 .filtres i{
-  border: 2px solid#deebff;
   border-radius: 50px;
   color:#0065fc;
   background-color:#deebff;
@@ -127,21 +124,17 @@ form p :nth-child(4){
   color: #0065fc;
 }
 .fas.fa-money-bill-wave{
-  padding: 8px;
-  padding-top:10px;
-  padding-bottom:10px;
+  padding: 10px;
+  padding-top:12px;
+  padding-bottom:12px;
   margin-right: 5px;
 }
 .fas.fa-child{
-  padding:10px;
-  padding-left: 12px;
-  padding-right:12px;
+  padding-left: 14px;
+  padding-right:14px;
 }
-.fas.fa-heart{
-  padding: 10px;
-}
-.fas.fa-dog{
-  padding: 10px;
+.fas.fa-heart,.fas.fa-dog,.fas.fa-child{
+  padding: 12px;
 }
 .fas.fa-info{
   border: 2px solid #f2f2f2;
@@ -183,6 +176,9 @@ h3, header+p, a p, .div-hebergements + p, footer div :first-child{
 .div-hebergements a{
   margin: auto;
 }
+.div-hebergements div{
+  border: 5px solid white;
+}
 .hebergement-image1{
   background: url("images_hebergement/Auberge_de_la_cannebière.jpg")  no-repeat;
   margin-left: 20px;
@@ -206,11 +202,10 @@ h3, header+p, a p, .div-hebergements + p, footer div :first-child{
   margin-right: 20px;
 }
 .hebergement-image1, .hebergement-image2,.hebergement-image3,.hebergement-image4,.hebergement-image5,.hebergement-image6{
-  width: 200px;
-  height: 175px;
-  border: 5px solid white;
-  border-radius: 20px;
+  width: 205px;
+  height: 180px;
   background-color: white;
+  border-radius: 20px;
 }
 .hebergement-image1,.hebergement-image2,.hebergement-image3{
   margin-bottom: 40px;
@@ -234,7 +229,9 @@ aside{
   padding: 12px;
   padding-top: 20px;
   height: 568px ;
-
+}
+aside div{
+  border: 4px solid white;
 }
 .populaires-image1{
   background: url("images_hebergement/Hôtel_Le_soleil_du_matin.jpg")  no-repeat;
@@ -248,7 +245,6 @@ aside{
 .populaires-image1, .populaires-image2, .populaires-image3{
   width:334.34px;
   height:130px;
-  border: 4px solid white;
   border-radius: 20px;
   background-color: white;
   margin: 20px;
