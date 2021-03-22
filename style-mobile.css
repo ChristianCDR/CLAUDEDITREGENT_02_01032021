@@ -1,20 +1,26 @@
-
+body{
+  width: 98%;
+  font-size: 4.5vw;
+}
 main{
-  width:auto;
-  margin: 2%;
-  margin-left: 10px;
+  margin-left: auto;
+  margin-right:auto;
+  justify-content: center;
 }
 header{
   width:110%;
-  height: 90px;
+  height: 20vw;
   border-bottom: 4px solid #f2f2f2;
   margin-left: -20px;
   margin-top: 20px;
+  flex-grow: 1;
 }
+
 .header-ul a{
   position: relative;
   top: 40px;
-  padding-bottom: 15px;
+  padding-bottom: 3vw;
+  border: 1px solid blue;
 }
 .header-ul :first-child a{
   left: -150px;
@@ -28,6 +34,7 @@ header{
 }
 .header-ul :nth-child(3){
   position: relative;
+  top: -15px;
   right:355px;
   font-size: 1em;
   font-weight: bold;
@@ -40,6 +47,7 @@ header{
   min-width: 80px;
   height: 50px; 
   position: relative;
+  top: 0px;
   left:-10px;
   margin-left: 30px;
 }
@@ -61,10 +69,10 @@ header+p+p{
 }
 #rechercher{
   border:1px solid #f2f2f2;
-  width: 245px;
+  width: 60%;
   padding-top: 17px;
   padding-bottom: 15px;
-  font-size: 1em;
+  font-size: 5vw;
 }
 form p :nth-child(4){
   display: inline;
@@ -144,7 +152,7 @@ footer, .activites-images, .div-filtres{
   margin-bottom: 50px;
 }
 .div-filtres + p{
-  font-size: 15px;
+  font-size: 4.5vw;
 }
 .fas.fa-info + span{
   position:relative;
@@ -169,29 +177,18 @@ aside a, aside h3{
 h3{
   font-size: 1em;
 }
+
+
 .section-hebergements{
   background-color: transparent;
-  height: 80em;
+  height: 75em;
   margin-top: 0px;
-  min-width:110%;
-  margin-left:-5.5%;
-}
-.hebergement-rating{
-  position:relative;
-  top: 60px;
-  left:16px;
-}
-.hebergement-image1,.hebergement-image2,.hebergement-image3,.hebergement-image4,.hebergement-image5,.hebergement-image6{
-  width:325.30px;
-  height:180px;
-  margin-left:0;
-  margin-bottom: 10px;
-}
-.hebergement-image3,.hebergement-image6{
-  margin-left: 20px;
+  margin-left: -5.5%;
+  margin-bottom: 112vh;
+  min-width: 110%;
 }
 .hebergement-image1{
-  background: url("images_hebergement/marcus-loke-WQJvWU_HZFo-unsplash.jpg")  no-repeat;
+  background: url("images_hebergement/marcus-loke-WQJvWU_HZFo-unsplash.jpg")  no-repeat ;
 }
 .hebergement-image2{
   background: url("images_hebergement/fred-kleber-gTbaxaVLvsg-unsplash.jpg")  no-repeat;
@@ -209,27 +206,50 @@ h3{
   background: url("images_hebergement/febrian-zakaria-M6S1WvfW68A-unsplash.jpg")  no-repeat;
   margin-bottom: -15px;
 }
-.section-activites{
-  margin-top: -55em;
-  margin-bottom: 57em;
+.hebergement-image1,.hebergement-image2,.hebergement-image3,.hebergement-image4,.hebergement-image5,.hebergement-image6{
+  width:70vw;
+  height:10em;
+  margin-left:0;
+  margin-bottom: 10px;
+  background-size: 70vw; 
 }
-.activites-images{
-  margin-left: -170px;
+.hebergement-image1 p,.hebergement-image2 p,.hebergement-image3 p,.hebergement-image4 p,.hebergement-image5 p,.hebergement-image6 p{
+  font-size:3vw;
+  position:relative;
+  top: 24vw;
+  left: 0vw;
 }
-.section-activites h3{
+.tarif{
+  border: dotted 3px green;
+  margin: 7vw 0;
+}
+.hebergement-rating{
+  position:relative;
+  top:  14vw;
+  left: 3.5vw;
+  margin: 7vw 0;
+}
+.fas.fa-star{
+  font-size:2.5vw;
+}
+.hebergement-image3,.hebergement-image6{
   margin-left: 20px;
 }
-.activites-image1,.activites-image2,.activites-image3,.activites-image4,.activites-image5,.activites-image6{
-  width: 334px;
-  height: 191px;
-  margin-bottom:35px;
-  margin-left:-20px;
+
+
+
+.section-activites{
+  margin-top: -45em;
+  margin-bottom: 0vh;
+  height: 75em;
 }
-.activites-image1 p,.activites-image2 p,.activites-image3 p,.activites-image4 p,.activites-image5 p,.activites-image6 p{
-  position:relative;
-  top:157px;
-  left: 15px;
-  }
+.activites-images{
+  margin-left:-12em;
+}
+.section-activites h3{
+  position: relative;
+  left: 0vw;
+}
 .activites-image1{
   background: url("images_activités/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg") no-repeat;
   margin-top: 20px;
@@ -239,7 +259,6 @@ h3{
   }
   .activites-image3{
     background: url("images_activités/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg") no-repeat;
-    margin-top:-10px;
   }
   .activites-image4{
     background: url("images_activités/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg") no-repeat;
@@ -248,20 +267,29 @@ h3{
     background: url("images_activités/florian-wehde-xW9e8gdotxI-unsplash.jpg") no-repeat;
   }
   .activites-image6{
-    background: url("images_activités/lena-paulin-wH2-EJoDcV0-unsplash.jpg") no-repeat;
-    margin-top:-10px;
+    background: url("images_activités/lena-paulin-wH2-EJoDcV0-unsplash.jpg") no-repeat; 
   }
+.activites-image1,.activites-image2,.activites-image3,.activites-image4,.activites-image5,.activites-image6{
+  width:70vw;
+  height:10em;
+  margin-left:0;
+  margin-bottom: 20px;
+  background-size: 70vw;
+}
+.activites-image1 p,.activites-image2 p,.activites-image3 p,.activites-image4 p,.activites-image5 p,.activites-image6 p{
+  font-size:4vw;
+  position:relative;
+  top: 20vh;
+  left: 2vw;
+  }
+
+
+
   footer{
     width:106%;
     margin-left:-3%;
   }
   footer div,.footer-child2, .footer-child3{
-    margin-left: 22px;
+    margin-left: 4em;
     margin-bottom:15px;
   }
-  
-    
-
-
-
-
