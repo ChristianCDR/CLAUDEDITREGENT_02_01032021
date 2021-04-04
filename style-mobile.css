@@ -5,90 +5,93 @@ body{
 main{
   margin-left: auto;
   margin-right:auto;
-  justify-content: center;
 }
 header{
   width:110%;
-  height: 20vw;
+  height: 17vw;
+  background: url("images/logo/reservia3x.png") no-repeat;
+  background-size: 16vw;
+  background-position: top -5px left 3em;
   border-bottom: 4px solid #f2f2f2;
   margin-left: -20px;
   margin-top: 20px;
-  flex-grow: 1;
-}
-
-.header-ul a{
   position: relative;
-  top: 40px;
-  padding-bottom: 3vw;
-  border: 1px solid blue;
 }
-.header-ul :first-child a{
-  left: -150px;
-  padding-right: 45px;
-  padding-left: 40px;
+svg{
+  display: none;
 }
-.header-ul :nth-child(2) a{
-  padding-right: 60px;
-  padding-left: 60px;
-  left:-210px;
+.header-ul :first-child,.header-ul :nth-child(2){
+  position: absolute;
+  bottom:0px;
+  padding-right: 15vw;
+  padding-bottom: 10px;
+  margin-bottom: -2px;
+}
+.header-ul :first-child{
+  left:0;
+  padding-left: 17vw;
+}
+.header-ul :nth-child(2){
+  right: 15vw;
+  margin: 0;
+  padding-left:22vw;
+  margin-bottom: -2px;
 }
 .header-ul :nth-child(3){
-  position: relative;
-  top: -15px;
-  right:355px;
-  font-size: 1em;
+  position: absolute;
+  top: 5px;
+  right:10vw;
+  font-size: 3.5vw;
   font-weight: bold;
 }
 .header-ul a:hover{
   border-top: none;
+  padding-top:0px;
   border-bottom: 4px solid #0065fc;
 }
-.bloc-svg{
-  min-width: 80px;
-  height: 50px; 
-  position: relative;
-  top: 0px;
-  left:-10px;
-  margin-left: 30px;
-}
-svg{
-  width:100%;
+header+p,header+p+p,.fas.fa-map-marker-alt,form p :nth-child(4){
+  margin-left: 10.7%;
 }
 header+p{
-  font-size: 1.4em;
+  font-size: 1.25em;
 }
 header+p+p{
   margin-top: -12px;
-  font-size: 1em;
+  font-size: 0.9em;
+}
+form p{
+  position: relative;
 }
 .fas.fa-map-marker-alt{
-  padding: 20px;
-  padding-top: 17.5px;
-  padding-bottom:17px ;
+  padding: 3.3vw 4vw;
   border-radius:15px 0 0 15px; 
+  margin-right: -1.3vw;
+
+  border:1px solid red;
 }
 #rechercher{
   border:1px solid #f2f2f2;
   width: 60%;
-  padding-top: 17px;
-  padding-bottom: 15px;
-  font-size: 5vw;
+  padding-top: 3.5vw;
+  padding-bottom: 3vw;
+  font-size: 4vw;
+
+  border:1px solid red;
 }
 form p :nth-child(4){
   display: inline;
   color:white;
-  border-radius: 10px;
-  background-color: #0065fc;  
-  margin-left: -18px;
-  padding: 19px;
-  padding-top: 18px;
-  padding-bottom:15.5px ;
   border-radius:15px; 
+  border:transparent;
+  background-color: #0065fc;
+  position:absolute;
+  left:68vw;
 }
+
 form p :nth-child(3){
   display:none;
 }
-.body-div, footer, .activites-images, .div-filtres{
+.body-div, footer, .activites-images, .div-filtres,.filtres{
   display: flex;
   flex-direction: column-reverse;
 }
@@ -96,96 +99,133 @@ form p :nth-child(3){
   margin-top: 50px; 
   margin-bottom: 850px;
 }
-footer, .activites-images, .div-filtres{
+footer, .activites-images, .div-filtres, .filtres{
   flex-direction: column;
+}
+.filtres{
+  position:relative;
+  margin-top:-10px;
+  margin-bottom: -160px;
 }
 .filtres li{
   border: none;
-  margin-right: 30px;
-  margin-bottom: 50px;
-}
-.filtres pre {
-  border: 2px solid #f2f2f2;
-  border-left: 2px solid transparent;
-  border-radius: 40px;
-  position: relative;
-  top: -57px;
-  left:-40px;
-  padding: 8px;
-  padding-left: 55px; 
-  margin-right: -20px;
+  margin-left: 10vw;
+  top: 0px; 
+  margin-bottom: 35px;
 }
 .filtres i{
   position: relative;
-  top: -1.5px;
-  left:-40px;
+  left:-6vh;
   z-index: 1;
 }
-.filtres .filtre-romantique{
-  position: relative;
-  top: -1.5px;
-  left:-22.3em;
-  padding-top: 10px;
-  padding-bottom: 8px;
+.filtres pre {
+  border: 2px solid #f2f2f2;
+  border-left:transparent;
+  border-radius: 40px;
+  width: 20%;
+  height:1.2em;
+  font-size: 0.8em;
+  position:relative;
+  left: -37px;
+  margin-top:-4vw;
+  padding-left: 12vw;
+  padding-right: 10vw;
+}
+.filtres .filtre-economique{
+  top:-24px;
+  height:1.25em;
+}
+.fas.fa-child{
+  position:absolute;
+  top:0; 
+  left:54vw;
+  padding-right: 2vh;
+  padding-left: 2vh;
+}
+.filtres .filtre-familiale{
+  position:absolute;
+  width: 10%;
+  left:50vw;
+  margin-left: 5%;
+  margin-top:57px;
 }
 .fas.fa-heart{
-  position: relative;
-  top: 56px;
-  left: -22.4em;
-  padding: 11px;
+  top:-96px;
 }
-.filtres .filtre-animaux{
-  position: relative;
-  top: 56px;
-  left:-32.9em;
-  padding-top: 11px;
-  padding-bottom: 7px;
-  padding-left:55px;
+.filtres .filtre-romantique{
+  top: -120px;
 }
 .fas.fa-dog{
-  top: 7.1em;
-  left: -33em;
-  padding: 11px;
+  top:-156px;
 }
-.div-filtres{
-  margin-top: -10px;
-  margin-bottom: 50px;
+.filtres .filtre-animaux{
+  width: 30%;
+  top:-180px;
+}
+.div-filtres p{
+  margin-left:10.5%;
 }
 .div-filtres + p{
-  font-size: 4.5vw;
+  font-size: 3.9vw;
+  margin-left:10%;
+  position: relative;
+}
+.fas.fa-info{
+  padding: 0.6em 0.9em;
+  margin-left:7px;
+  margin-right:1vw;
+  border-radius: 30px;
 }
 .fas.fa-info + span{
-  position:relative;
-  left: 40px;
+  position:absolute;
+  top:5vw;
+  left:10vw;
 }
 aside{
   min-width:105%;
   margin-left:-6%;
   border-radius: 0;
-  height:520px;
+  height:auto;
 }
-aside a, aside h3{
+.populaires-image1, .populaires-image2, .populaires-image3{
+  width:72vw;
+  height:auto;
+  border-radius: 20px;
+  background-color: white;
+  margin: 27px 10px 20px 18vw;
+  background-size: 35vw;
+}
+.populaires-image1 p, .populaires-image2 p, .populaires-image3 p, .populaires-rating{
+  position: relative;
+  left:37vw;
+  font-size: 3.5vw;
+ }
+ .populaires-rating{
+  bottom: 10px;
+ }
+ aside div .tarif, aside div .prix-gras{
+  font-size: 3vw;
+ }
+aside div, aside h3{
   position:relative;
   right:15px;
 }
 .fas.fa-chart-line{
-  margin-left: 163px;
+  margin-left: 30%;
 }
 .populaires-image2,.populaires-image3{
   margin-top: -10px;
 }
-h3{
+h3, .div-hebergements+p{
   font-size: 1em;
+  margin-left: 13vw;
 }
-
-
 .section-hebergements{
   background-color: transparent;
+  min-width: 110%;
   height: 75em;
   margin-top: 0px;
   margin-left: -5.5%;
-  margin-bottom: 112vh;
-  min-width: 110%;
 }
 .hebergement-image1{
   background: url("images_hebergement/marcus-loke-WQJvWU_HZFo-unsplash.jpg")  no-repeat ;
@@ -208,7 +248,7 @@ h3{
 }
 .hebergement-image1,.hebergement-image2,.hebergement-image3,.hebergement-image4,.hebergement-image5,.hebergement-image6{
   width:70vw;
-  height:10em;
+  height:9.2em;
   margin-left:0;
   margin-bottom: 10px;
   background-size: 70vw; 
@@ -219,15 +259,12 @@ h3{
   top: 24vw;
   left: 0vw;
 }
-.tarif{
-  border: dotted 3px green;
-  margin: 7vw 0;
+.prix-gras{
+  font-size:3vw; 
 }
-.hebergement-rating{
-  position:relative;
-  top:  14vw;
-  left: 3.5vw;
-  margin: 7vw 0;
+.div-hebergements .hebergement-rating{
+  top: 2vw;
+  left: 0vw;
 }
 .fas.fa-star{
   font-size:2.5vw;
@@ -235,24 +272,20 @@ h3{
 .hebergement-image3,.hebergement-image6{
   margin-left: 20px;
 }
-
-
-
 .section-activites{
-  margin-top: -45em;
-  margin-bottom: 0vh;
+  top:;
   height: 75em;
 }
 .activites-images{
-  margin-left:-12em;
+  margin-left:-14em;
 }
 .section-activites h3{
   position: relative;
-  left: 0vw;
+  left: -2vw;
 }
 .activites-image1{
   background: url("images_activités/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg") no-repeat;
-  margin-top: 20px;
+  margin-top: 8vw;
   }
   .activites-image2{
     background: url("images_activités/paul-hermann-QFTrLdQIRhI-unsplash.jpg") no-repeat;
@@ -279,12 +312,9 @@ h3{
 .activites-image1 p,.activites-image2 p,.activites-image3 p,.activites-image4 p,.activites-image5 p,.activites-image6 p{
   font-size:4vw;
   position:relative;
-  top: 20vh;
+  top: 9em;
   left: 2vw;
   }
-
-
-
   footer{
     width:106%;
     margin-left:-3%;

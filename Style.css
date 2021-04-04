@@ -69,10 +69,11 @@ nav ul, .filtres{
 }
 form button{
   padding: 10px;
-  padding-top: 12px;
-  padding-bottom: 9.5px;
+  padding-top: 14px;
+  padding-bottom: 10.5px;
   margin-left: -5px;
   border-radius: 0 10px 10px 0;
+  border:transparent;
   background-color: #0065fc;
   font-weight: bold;
   color: white;
@@ -264,8 +265,8 @@ div span{
 }
 .hebergement-rating{
   position:relative;
-  top: 60px;
-  left:10px;
+  top: 10px;
+  left:0px;
 }
 .section-activites{
   width:100%;
