@@ -1,7 +1,7 @@
 body{
   width: 98%;
   font-size: 4.5vw;
-  overflow-x: hidden;
+  overflow-x:hidden;
 }
 main{
   margin-left: auto;
@@ -10,7 +10,7 @@ main{
 header{
   width:110%;
   height: 17vw;
-  background: url("logo/reservia3x.png") no-repeat;
+  background: url("Reservia3x.png") no-repeat;
   background-size: 16vw;
   background-position: top -5px left 3em;
   border-bottom: 4px solid #f2f2f2;
