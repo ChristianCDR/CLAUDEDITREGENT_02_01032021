@@ -83,11 +83,11 @@ form p{
   border:transparent;
   background-color: #0065fc;
   position: absolute;
-  left:65vw;
-  top:1px;
+  left:68vw;
+  top:-0.5px;
   font-size: 4vw;
-  padding: 3.6vw;
-  padding-bottom: 3vw;
+  padding: 3.7vw;
+  padding-bottom: 3.5vw;
 }
 form p :nth-child(3){
   display:none;
