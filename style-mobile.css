@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body{
   width: 98%;
   font-size: 4.5vw;
@@ -68,27 +68,32 @@ form p{
   padding: 3.3vw 4vw;
   border-radius:15px 0 0 15px; 
   margin-right: -1.3vw;
-
-  border:1px solid red;
 }
 #rechercher{
-  border:1px solid #f2f2f2;
+  border:1px solid #000;
   width: 60%;
   padding-top: 3.5vw;
   padding-bottom: 3vw;
   font-size: 4vw;
-
-  border:1px solid red;
 }
-form p :nth-child(4){
-  display: inline;
+
+
+.fa-search{
   color:white;
+}
+#aze{
+  display: block;
   border-radius:15px; 
   border:transparent;
   background-color: #0065fc;
+
   position:absolute;
+  top:0px;
   left:68vw;
+
+  padding:
 }
+
 
 form p :nth-child(3){
   display:none;
@@ -275,14 +280,17 @@ h3, .div-hebergements+p{
   margin-left: 20px;
 }
 .section-activites{
-  top:;
+  position: relative;
+  top:-950px;
   height: 75em;
+  margin-bottom: -920px;
+
 }
 .activites-images{
-  margin-left:-14em;
+  position:absolute;
+  left:15vw;
 }
 .section-activites h3{
-  position: relative;
   left: -2vw;
 }
 .activites-image1{
@@ -324,330 +332,4 @@ h3, .div-hebergements+p{
   footer div,.footer-child2, .footer-child3{
     margin-left: 4em;
     margin-bottom:15px;
-=======
-body{
-  width: 98%;
-  font-size: 4.5vw;
-}
-main{
-  margin-left: auto;
-  margin-right:auto;
-}
-header{
-  width:110%;
-  height: 17vw;
-  background: url("images/logo/reservia3x.png") no-repeat;
-  background-size: 16vw;
-  background-position: top -5px left 3em;
-  border-bottom: 4px solid #f2f2f2;
-  margin-left: -20px;
-  margin-top: 20px;
-  position: relative;
-}
-svg{
-  display: none;
-}
-.header-ul :first-child,.header-ul :nth-child(2){
-  position: absolute;
-  bottom:0px;
-  padding-right: 15vw;
-  padding-bottom: 10px;
-  margin-bottom: -2px;
-}
-.header-ul :first-child{
-  left:0;
-  padding-left: 17vw;
-}
-.header-ul :nth-child(2){
-  right: 15vw;
-  margin: 0;
-  padding-left:22vw;
-  margin-bottom: -2px;
-}
-.header-ul :nth-child(3){
-  position: absolute;
-  top: 5px;
-  right:10vw;
-  font-size: 3.5vw;
-  font-weight: bold;
-}
-.header-ul a:hover{
-  border-top: none;
-  padding-top:0px;
-  border-bottom: 4px solid #0065fc;
-}
-header+p,header+p+p,.fas.fa-map-marker-alt,form p :nth-child(4){
-  margin-left: 10.7%;
-}
-header+p{
-  font-size: 1.25em;
-}
-header+p+p{
-  margin-top: -12px;
-  font-size: 0.9em;
-}
-form p{
-  position: relative;
-}
-.fas.fa-map-marker-alt{
-  padding: 3.3vw 4vw;
-  border-radius:15px 0 0 15px; 
-  margin-right: -1.3vw;
-
-  border:1px solid red;
-}
-#rechercher{
-  border:1px solid #f2f2f2;
-  width: 60%;
-  padding-top: 3.5vw;
-  padding-bottom: 3vw;
-  font-size: 4vw;
-
-  border:1px solid red;
-}
-form p :nth-child(4){
-  display: inline;
-  color:white;
-  border-radius:15px; 
-  border:transparent;
-  background-color: #0065fc;
-  position:absolute;
-  left:68vw;
-}
-
-form p :nth-child(3){
-  display:none;
-}
-.body-div, footer, .activites-images, .div-filtres,.filtres{
-  display: flex;
-  flex-direction: column-reverse;
-}
-.section-hebergements, .activites-images{
-  margin-top: 50px; 
-  margin-bottom: 850px;
-}
-footer, .activites-images, .div-filtres, .filtres{
-  flex-direction: column;
-}
-.filtres{
-  position:relative;
-  margin-top:-10px;
-  margin-bottom: -160px;
-}
-.filtres li{
-  border: none;
-  margin-left: 10vw;
-  top: 0px; 
-  margin-bottom: 35px;
-}
-.filtres i{
-  position: relative;
-  left:-6vh;
-  z-index: 1;
-}
-.filtres pre {
-  border: 2px solid #f2f2f2;
-  border-left:transparent;
-  border-radius: 40px;
-  width: 20%;
-  height:1.2em;
-  font-size: 0.8em;
-  position:relative;
-  left: -37px;
-  margin-top:-4vw;
-  padding-left: 12vw;
-  padding-right: 10vw;
-}
-.filtres .filtre-economique{
-  top:-24px;
-  height:1.25em;
-}
-.fas.fa-child{
-  position:absolute;
-  top:0; 
-  left:54vw;
-  padding-right: 2vh;
-  padding-left: 2vh;
-}
-.filtres .filtre-familiale{
-  position:absolute;
-  width: 10%;
-  left:50vw;
-  margin-left: 5%;
-  margin-top:57px;
-}
-.fas.fa-heart{
-  top:-96px;
-}
-.filtres .filtre-romantique{
-  top: -120px;
-}
-.fas.fa-dog{
-  top:-156px;
-}
-.filtres .filtre-animaux{
-  width: 30%;
-  top:-180px;
-}
-.div-filtres p{
-  margin-left:10.5%;
-}
-.div-filtres + p{
-  font-size: 3.9vw;
-  margin-left:10%;
-  position: relative;
-}
-.fas.fa-info{
-  padding: 0.6em 0.9em;
-  margin-left:7px;
-  margin-right:1vw;
-  border-radius: 30px;
-}
-.fas.fa-info + span{
-  position:absolute;
-  top:5vw;
-  left:10vw;
-}
-aside{
-  min-width:105%;
-  margin-left:-6%;
-  border-radius: 0;
-  height:auto;
-}
-.populaires-image1, .populaires-image2, .populaires-image3{
-  width:72vw;
-  height:auto;
-  border-radius: 20px;
-  background-color: white;
-  margin: 27px 10px 20px 18vw;
-  background-size: 35vw;
-}
-.populaires-image1 p, .populaires-image2 p, .populaires-image3 p, .populaires-rating{
-  position: relative;
-  left:37vw;
-  font-size: 3.5vw;
- }
- .populaires-rating{
-  bottom: 10px;
- }
- aside div .tarif, aside div .prix-gras{
-  font-size: 3vw;
- }
-aside div, aside h3{
-  position:relative;
-  right:15px;
-}
-.fas.fa-chart-line{
-  margin-left: 30%;
-}
-.populaires-image2,.populaires-image3{
-  margin-top: -10px;
-}
-h3, .div-hebergements+p{
-  font-size: 1em;
-  margin-left: 13vw;
-}
-.section-hebergements{
-  background-color: transparent;
-  min-width: 110%;
-  height: 75em;
-  margin-top: 0px;
-  margin-left: -5.5%;
-}
-.hebergement-image1{
-  background: url("images_hebergement/marcus-loke-WQJvWU_HZFo-unsplash.jpg")  no-repeat ;
-}
-.hebergement-image2{
-  background: url("images_hebergement/fred-kleber-gTbaxaVLvsg-unsplash.jpg")  no-repeat;
-}
-.hebergement-image3{
-  background: url("images_hebergement/reisetopia-B8WIgxA_PFU-unsplash.jpg")  no-repeat;
-}
-.hebergement-image4{
-  background: url("images_hebergement/annie-spratt-Eg1qcIitAuA-unsplash.jpg")  no-repeat;
-}
-.hebergement-image5{
-  background: url("images_hebergement/nicate-lee-kT-ZyaiwBe0-unsplash.jpg")  no-repeat;
-}
-.hebergement-image6{
-  background: url("images_hebergement/febrian-zakaria-M6S1WvfW68A-unsplash.jpg")  no-repeat;
-  margin-bottom: -15px;
-}
-.hebergement-image1,.hebergement-image2,.hebergement-image3,.hebergement-image4,.hebergement-image5,.hebergement-image6{
-  width:70vw;
-  height:9.2em;
-  margin-left:0;
-  margin-bottom: 10px;
-  background-size: 70vw; 
-}
-.hebergement-image1 p,.hebergement-image2 p,.hebergement-image3 p,.hebergement-image4 p,.hebergement-image5 p,.hebergement-image6 p{
-  font-size:3vw;
-  position:relative;
-  top: 24vw;
-  left: 0vw;
-}
-.prix-gras{
-  font-size:3vw; 
-}
-.div-hebergements .hebergement-rating{
-  top: 2vw;
-  left: 0vw;
-}
-.fas.fa-star{
-  font-size:2.5vw;
-}
-.hebergement-image3,.hebergement-image6{
-  margin-left: 20px;
-}
-.section-activites{
-  top:;
-  height: 75em;
-}
-.activites-images{
-  margin-left:-14em;
-}
-.section-activites h3{
-  position: relative;
-  left: -2vw;
-}
-.activites-image1{
-  background: url("images_activités/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg") no-repeat;
-  margin-top: 8vw;
-  }
-  .activites-image2{
-    background: url("images_activités/paul-hermann-QFTrLdQIRhI-unsplash.jpg") no-repeat;
-  }
-  .activites-image3{
-    background: url("images_activités/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg") no-repeat;
-  }
-  .activites-image4{
-    background: url("images_activités/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg") no-repeat;
-  }
-  .activites-image5{
-    background: url("images_activités/florian-wehde-xW9e8gdotxI-unsplash.jpg") no-repeat;
-  }
-  .activites-image6{
-    background: url("images_activités/lena-paulin-wH2-EJoDcV0-unsplash.jpg") no-repeat; 
-  }
-.activites-image1,.activites-image2,.activites-image3,.activites-image4,.activites-image5,.activites-image6{
-  width:70vw;
-  height:10em;
-  margin-left:0;
-  margin-bottom: 20px;
-  background-size: 70vw;
-}
-.activites-image1 p,.activites-image2 p,.activites-image3 p,.activites-image4 p,.activites-image5 p,.activites-image6 p{
-  font-size:4vw;
-  position:relative;
-  top: 9em;
-  left: 2vw;
-  }
-  footer{
-    width:106%;
-    margin-left:-3%;
-  }
-  footer div,.footer-child2, .footer-child3{
-    margin-left: 4em;
-    margin-bottom:15px;
->>>>>>> 9d791753b3bdbec56ae068f94017e48cd32406ab
   }
