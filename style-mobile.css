@@ -10,7 +10,7 @@ main{
 header{
   width:110%;
   height: 17vw;
-  background: url("images/logo/reservia3x.png") no-repeat;
+  background: url("logo/reservia3x.png") no-repeat;
   background-size: 16vw;
   background-position: top -5px left 3em;
   border-bottom: 4px solid #f2f2f2;
