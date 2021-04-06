@@ -362,12 +362,66 @@ footer div{
   color:black;
   font-weight:bold;
 }
-@media screen and (min-width: 768px) and (max-width: 1024px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   body{
     min-width: 100%;
-  }
-  main{
-    width:auto;
   }
   .div-filtres{
     margin-bottom: 30px;
@@ -382,7 +436,7 @@ footer div{
     left: -36.3em;
     padding: 11px;
   }
-  .body-div{
+  .body-div, aside,.section-activites,footer{
     display:flex;
     flex-direction: column;
   }
@@ -397,21 +451,26 @@ footer div{
   }
   aside{
     min-width: 97%;
-    background-color: #f2f2f2;
+    background-color: transparent;
+    align-items: center;
   }
-  aside div{
-    position: relative;
-    left: 140px;
+  aside h3{
+    margin-left:-4%;
   }
   .fas.fa-chart-line{
-    position:relative;
-    left: 150px;
+   justify-content: right; 
   }
   .section-activites{
     width:auto;
     height: 65em;
-    margin-left: 0%;
     padding-left: 70px;
+    border: 1px teal solid;
+  }
+  .activites-images{
+    position: absolute;
+    top: 125em;
+    
+    left: 20vw;
   }
   .activites-image4, .activites-image5, .activites-image6{
     position:relative;
@@ -423,16 +482,10 @@ footer div{
   }
   footer{
     width: 105%;
-    margin-left: -2%;
-    height: 330px;
+    height: 230px;
+    flex-direction:row;
   }
-  .footer-child2, .footer-child3{
-    margin-left: 100px;
-  }
-  .footer-child3{
-    position: relative;
-    top:200px;
-    left: -33.5em;
-    margin-bottom: 200px;
+  footer div{
+    justify-items:center;
   }
 }
