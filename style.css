@@ -69,7 +69,7 @@ nav ul, .filtres{
 }
 form button{
   padding: 10px;
-  padding-top: 12px;
+  padding-top: 14px;
   padding-bottom: 10.5px;
   margin-left: -5px;
   border-radius: 0 10px 10px 0;
@@ -130,11 +130,12 @@ form p :nth-child(4){
   padding-bottom:12px;
   margin-right: 5px;
 }
-.fas.fa-heart,.fas.fa-dog{
-  padding: 12px;
-}
 .fas.fa-child{
-  padding: 12px 14px;
+  padding-left: 14px;
+  padding-right:14px;
+}
+.fas.fa-heart,.fas.fa-dog,.fas.fa-child{
+  padding: 12px;
 }
 .fas.fa-info{
   border: 2px solid #f2f2f2;
@@ -360,85 +361,4 @@ footer div{
   font-size: 14px;
   color:black;
   font-weight:bold;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  body{
-    min-width: 100%;
-  }
-  .div-filtres{
-    margin-bottom: 30px;
-  }
-  .filtres .filtre-animaux{
-    position: relative;
-    top:0px;
-    left:-36.1em;
-    margin-top: 16.5px;
-  }
-  .fas.fa-dog{
-    top: 57px;
-    left: -36.3em;
-    padding: 13px;
-  }
-  .body-div, aside,.section-activites,footer{
-    display:flex;
-    flex-direction: column;
-  }
-  .section-hebergements{
-    min-width: 100%;
-    height: auto;
-    margin-bottom: 40px;
-  }
-  .section-hebergements div{
-    margin: 20px;
-  }
-  aside{
-    min-width: 97%;
-    background-color: transparent;
-    align-items: center;
-  }
-  aside h3{
-    padding-left:1%;
-  }
-  .fas.fa-chart-line{
-   justify-content: right; 
-  }
-  .section-activites{
-    width:auto;
-    height: 65em;
-    position: relative;
-  }
-  .section-activites h3{
-    position:absolute;
-    left:3%;
-    width: 220px;
-  }
-  .activites-images{
-    position:absolute;
-    top: 70px;
-    width: 500px;
-    padding-left: 50%;
-  }
-  .activites-image4, .activites-image5, .activites-image6{
-    position:relative;
-    top: 500px;
-    right:550px;
-  }
-  .activites-image2, .activites-image3, .activites-image5, .activites-image6{
-    margin-left: 23%; 
-  }
-  footer{
-    width: 105%;
-    height: 230px;
-    flex-direction:row;
-  }
-  footer div{
-    width: 40%;
-    margin-left:10%;
-  }
-  .footer-child2, .footer-child3{
-    margin:0;
-    margin-left:2%;
-  }
-
 }
