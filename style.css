@@ -454,7 +454,7 @@ footer div{
     align-items: center;
   }
   aside h3{
-    margin-left:-4%;
+    padding-left:1%;
   }
   .fas.fa-chart-line{
    justify-content: right; 
@@ -463,9 +463,14 @@ footer div{
     width:auto;
     height: 65em;
     position: relative;
+    border: 1px solid teal;
   }
   .section-activites h3{
-    padding-left: 60px;
+    position:absolute;
+    left:3%;
+    width: 220px;
+
+    border: 1px solid teal;
   }
   .activites-images{
     position:absolute;
@@ -486,7 +491,13 @@ footer div{
     height: 230px;
     flex-direction:row;
   }
-  .footer-child2{
+  footer div{
+    width: 40%;
+    margin-left:10%;
+  }
+  .footer-child2, .footer-child3{
+    margin:0;
+    margin-left:2%;
   }
 
 }
