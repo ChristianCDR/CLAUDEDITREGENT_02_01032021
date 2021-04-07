@@ -2,8 +2,6 @@ body{
   width: 98%;
   font-size: 4.5vw;
   overflow-x:hidden;
-  display:flex;
-  a
 }
 main{
   margin-left: auto;
