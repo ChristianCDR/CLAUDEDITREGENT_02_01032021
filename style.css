@@ -444,7 +444,6 @@ footer div{
     min-width: 100%;
     height: auto;
     margin-bottom: 40px;
-    border: 1px solid teal;
   }
   .section-hebergements div{
     margin: 20px;
@@ -463,14 +462,16 @@ footer div{
   .section-activites{
     width:auto;
     height: 65em;
-    padding-left: 70px;
-    border: 1px teal solid;
+    position: relative;
+  }
+  .section-activites h3{
+    padding-left: 60px;
   }
   .activites-images{
-    position: absolute;
-    top: 125em;
-    
-    left: 20vw;
+    position:absolute;
+    top: 70px;
+    width: 500px;
+    padding-left: 50%;
   }
   .activites-image4, .activites-image5, .activites-image6{
     position:relative;
@@ -485,7 +486,7 @@ footer div{
     height: 230px;
     flex-direction:row;
   }
-  footer div{
-    justify-items:center;
+  .footer-child2{
   }
+
 }
