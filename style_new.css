@@ -180,25 +180,25 @@ h3, header+p, a p, .div-hebergements + p, footer div :first-child{
   border: 5px solid white;
 }
 .hebergement-image1{
-  background: url("images_hebergement/Auberge_de_la_cannebière.jpg")  no-repeat;
+  background: url("images/images_hebergement/Auberge_de_la_cannebière.jpg")  no-repeat;
   margin-left: 20px;
 }
 .hebergement-image2{
-  background: url("images_hebergement/Hotel_du_port.jpg")  no-repeat;
+  background: url("images/images_hebergement/Hotel_du_port.jpg")  no-repeat;
 }
 .hebergement-image3{
-  background: url("images_hebergement/Les_mouettes.jpg")  no-repeat;
+  background: url("images/images_hebergement/Les_mouettes.jpg")  no-repeat;
   margin-right: 20px;
 }
 .hebergement-image4{
-  background: url("images_hebergement/Hôtel_de_la_mer.jpg")  no-repeat;
+  background: url("images/images_hebergement/Hôtel_de_la_mer.jpg")  no-repeat;
   margin-left: 20px;
 }
 .hebergement-image5{
-  background: url("images_hebergement/Le_panier.jpg")  no-repeat;
+  background: url("images/images_hebergement/Le_panier.jpg")  no-repeat;
 }
 .hebergement-image6{
-  background: url("images_hebergement/Amina.jpg")  no-repeat;
+  background: url("images/images_hebergement/Amina.jpg")  no-repeat;
   margin-right: 20px;
 }
 .hebergement-image1, .hebergement-image2,.hebergement-image3,.hebergement-image4,.hebergement-image5,.hebergement-image6{
@@ -234,13 +234,13 @@ aside div{
   border: 4px solid white;
 }
 .populaires-image1{
-  background: url("images_hebergement/Hôtel_Le_soleil_du_matin.jpg")  no-repeat;
+  background: url("images/images_hebergement/Hôtel_Le_soleil_du_matin.jpg")  no-repeat;
 }
 .populaires-image2{
-  background: url("images_hebergement/Au_coeur_de_l'eau.jpg")  no-repeat;
+  background: url("images/images_hebergement/Au_coeur_de_l'eau.jpg")  no-repeat;
 }
 .populaires-image3{
-  background: url("images_hebergement/Tout_bleu_et_blanc.jpg")  no-repeat;
+  background: url("images/images_hebergement/Tout_bleu_et_blanc.jpg")  no-repeat;
 }
 .populaires-image1, .populaires-image2, .populaires-image3{
   width:334.34px;
@@ -312,24 +312,24 @@ left: 15px;
   left: 15px;
 }
 .activites-image1{
-background: url("images_activités/vieux_port.jpg") no-repeat;
+background: url("images/images_activités/vieux_port.jpg") no-repeat;
 }
 .activites-image2{
-  background: url("images_activités/pomègues.jpg") no-repeat;
+  background: url("images/images_activités/pomègues.jpg") no-repeat;
   margin-bottom: 42px;
 }
 .activites-image3{
-  background: url("images_activités/iles_du_frioul.jpg") no-repeat;
+  background: url("images/images_activités/iles_du_frioul.jpg") no-repeat;
 }
 .activites-image4{
-  background: url("images_activités/calanques.jpg") no-repeat;
+  background: url("images/images_activités/calanques.jpg") no-repeat;
 }
 .activites-image5{
-  background: url("images_activités/notre_dame_de_la_garde.jpg") no-repeat;
+  background: url("images/images_activités/notre_dame_de_la_garde.jpg") no-repeat;
   margin-top: -10px;
 }
 .activites-image6{
-  background: url("images_activités/longchamp.jpg") no-repeat;
+  background: url("images/images_activités/longchamp.jpg") no-repeat;
   margin-top: 40px;
 }
 .section-hebergements a, .section-activites a, aside a{
@@ -365,6 +365,7 @@ footer div{
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   body{
     min-width: 100%;
+    overflow-x: hidden;
   }
   .div-filtres{
     margin-bottom: 30px;
